@@ -1,0 +1,30 @@
+.keys {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.key {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:all 0.09s;
+}
+
+kbd {
+  font-size: 35px;
+}
+
+.sound {
+  font-size: 20px;
+} 
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
